@@ -183,7 +183,7 @@ export default defineConfig(({ command }) => {
           tag: 'link',
           attrs: {
             rel: 'icon',
-            href: `${v2PublicPath}favicon_no_exist.ico`,
+            href: `${v2PublicPath}favicon.ico`,
           },
           publicPath: false,
           head: true,

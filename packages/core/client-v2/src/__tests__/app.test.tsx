@@ -149,7 +149,7 @@ describe('app', () => {
 
       const favicon = document.querySelector('link[rel="shortcut icon"]') as HTMLLinkElement;
       expect(favicon).toBeInTheDocument();
-      expect(favicon.getAttribute('href')).toBe('/favicon/favicon.ico');
+      expect(favicon.getAttribute('href')).toBe('/favicon.ico');
     });
 
     it('should reset favicon to default when favicon is explicitly undefined', () => {
@@ -160,7 +160,7 @@ describe('app', () => {
 
       const favicon = document.querySelector('link[rel="shortcut icon"]') as HTMLLinkElement;
       expect(favicon).toBeInTheDocument();
-      expect(favicon.getAttribute('href')).toBe('/favicon/favicon.ico');
+      expect(favicon.getAttribute('href')).toBe('/favicon.ico');
     });
 
     it('should sync document language when app language changes', async () => {
